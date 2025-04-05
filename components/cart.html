@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">E-market</a>
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-input">
+            <i class="fas fa-search"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a>CONTACT</a></li>
+                <li><a href="./Auth/login.html">LOGIN</a></li>
+                <li><a href="./Auth/register.html">REGISTER</a></li>
+                <li class="cart"><a href="components/cart.html"><i class="fas fa-shopping-cart"></i><span
+                            class="count">0</span></a></li>
+                <li class="user">
+                    <i class="fas fa-user"></i>
+                    <ul class="dropdown">
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <i class="fas fa-bars"></i>
+    </header>
+    <main>
+        <section class="cart-container">
+          <aside>
+            <div>
+                <h2>Cart</h2>
+            </div>
+            <div class="" id="cart">
+            
+            </div>
+            <div class="bottom">
+                <p>Subtotal: <span id="subtotal">$0.00</span></p>
+                <button class="checkout">Checkout</button>
+            </div>
+          </aside>
+            
+                    
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="about">
+                <h2>About E-market</h2>
+                <p>E market is an online market tailored to bring you amazing products at exclusive prices, we deliver
+                    products countrywide. Navigate the pages to view different products. We offer support 24/7, feel
+                    free to seek for assistance through our official channels.</p>
+            </div>
+            <div class="help">
+                <h2>Help & Support</h2>
+                <div class="help-container">
+                    <ul>
+                        <li><a href="faqs.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="return-refund.html">Returns & Refunds</a></li>
+                        <li><a href="shipping-delivery.html">Shipping & Delivery</a></li>
+                    </ul>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+            </div>
+    </footer>
+    <script src="../js/cart.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
